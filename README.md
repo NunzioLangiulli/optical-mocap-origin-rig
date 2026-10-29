@@ -1,6 +1,6 @@
 # Optical Motion-Capture Origin Rig — 150 mm
 
-**Repository name:** `optical-mocap-origin-rig` · 3D-printable origin and ground-plane reference · Vicon Nexus / OptiTrack Motive workflows
+3D-printable origin and ground-plane reference · Vicon Nexus / OptiTrack Motive workflows
 
 A printable, tripod-mounted five-position coordinate reference for **passive optical motion-capture systems**, originally designed for Vicon Nexus origin setting after camera calibration. Use with other systems depends on marker reconstruction and the supported origin workflow; see the compatibility table below. The current design, **v7**, uses cylindrical adhesive-marker supports, downward-facing pointed channels, and a printed female 1/4-20 UNC tripod socket.
 
