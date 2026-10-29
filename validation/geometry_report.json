@@ -1,0 +1,137 @@
+{
+  "design_revision": "v7",
+  "evidence_type": "digital only",
+  "units": "mm",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.5.4",
+    "manifold3d": "3.5.4",
+    "trimesh": "5.2.0",
+    "Pillow": "13.0.0"
+  },
+  "local_geometry_tests": "passed",
+  "remote_github_actions": "not observed",
+  "pad_centres_mm": [
+    [
+      0.0,
+      0.0,
+      24.0
+    ],
+    [
+      150.0,
+      0.0,
+      24.0
+    ],
+    [
+      0.0,
+      150.0,
+      24.0
+    ],
+    [
+      0.0,
+      0.0,
+      174.0
+    ],
+    [
+      100.0,
+      0.0,
+      24.0
+    ]
+  ],
+  "models": {
+    "origin_rig_v7": {
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_components": 1,
+      "dimensions_mm": [
+        191.0,
+        174.0,
+        174.0
+      ],
+      "bounds_mm": [
+        [
+          -32.0,
+          -15.0,
+          0.0
+        ],
+        [
+          159.0,
+          159.0,
+          174.0
+        ]
+      ],
+      "volume_cm3": 101.34998883346493,
+      "triangles": 12626,
+      "sha256": "96b2c951c05e0cd7330d28d7e1e80eb292056e8079b3635c037062d5c56d60ae"
+    },
+    "roof_coupon_60deg": {
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_components": 1,
+      "dimensions_mm": [
+        24.0,
+        18.0,
+        12.0
+      ],
+      "bounds_mm": [
+        [
+          0.0,
+          -9.0,
+          0.0
+        ],
+        [
+          24.0,
+          9.0,
+          12.0
+        ]
+      ],
+      "volume_cm3": 3.9047694625854494,
+      "triangles": 32,
+      "sha256": "6d33b6e5a6ce5c3cf9c5810284a64dc77411e0d852eb22504bd27cbee4e942f1"
+    },
+    "thread_coupon_quarter_20": {
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_components": 1,
+      "dimensions_mm": [
+        12.0,
+        12.0,
+        12.0
+      ],
+      "bounds_mm": [
+        [
+          -6.0,
+          -6.0,
+          0.0
+        ],
+        [
+          6.0,
+          6.0,
+          12.0
+        ]
+      ],
+      "volume_cm3": 1.022966806500298,
+      "triangles": 10296,
+      "sha256": "b6e784240747df38ed362b6eca032c2e842ac01c798d20fbe9f2054fecb2518c"
+    }
+  },
+  "physical_status": {
+    "slicing": "not tested",
+    "ABS_coupons": "not tested",
+    "full_print": "not tested",
+    "dimensional_accuracy": "not tested",
+    "mechanical_stiffness": "not tested",
+    "marker_visibility": "not tested",
+    "Nexus_use": "not tested",
+    "Motive_use": "not tested"
+  },
+  "rebuild_comparison": {
+    "absolute_volume_difference_mm3": 0.0,
+    "symmetric_difference_mm3": 20.6693236991181,
+    "thresholds_mm3": {
+      "absolute_volume_difference": 10,
+      "symmetric_difference": 30
+    },
+    "note": "Boolean triangulation/simplification may differ. Reference STL files remain unchanged."
+  }
+}

@@ -1,0 +1,6 @@
+# Geometry toolchain used for the reference build (Python 3.12).
+numpy==2.5.4
+manifold3d==3.5.4
+trimesh==5.2.0
+# Only required by scripts/render_preview.py.
+Pillow==13.0.0

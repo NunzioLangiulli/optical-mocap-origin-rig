@@ -1,0 +1,27 @@
+stage,item,acceptance_criterion,result,units,method_or_settings,date,operator,notes
+printing,thread_coupon,,,,,,,Not tested
+printing,roof_coupon,,,,,,,Not tested
+printing,full_rig,,,,,,,Not tested
+dimensions,O_to_X,,,,,,,Not tested
+dimensions,O_to_Y,,,,,,,Not tested
+dimensions,O_to_Z,,,,,,,Not tested
+dimensions,arm_orthogonality,,,,,,,Not tested
+mechanical,tripod_thread_fit,,,,,,,Not tested
+mechanical,rig_stability,,,,,,,Not tested
+optical,marker_visibility,,,,,,,Not tested
+nexus,origin_selection,,,,,,,Not tested
+nexus,repeatability,,,,,,,Not tested
+motive,system_and_software_version,,,,,,,Not tested
+motive,marker_type_and_identity,,,,,,,Not tested
+motive,origin_method_and_pivot,,,,,,,Not tested
+motive,axis_convention_and_offsets,,,,,,,Not tested
+motive,occlusion_reacquisition,,,,,,,Not tested
+motive,origin_repeatability,,,,,,,Not tested
+other_system,system_and_software_version,,,,,,,Not tested
+other_system,marker_type_and_identity,,,,,,,Not tested
+other_system,origin_method_and_pivot,,,,,,,Not tested
+other_system,axis_convention_and_offsets,,,,,,,Not tested
+other_system,occlusion_reacquisition,,,,,,,Not tested
+other_system,origin_repeatability,,,,,,,Not tested
+dimensions,O_to_M100,,,,,,,Not tested
+dimensions,M100_to_Y150,,,,,,,Not tested

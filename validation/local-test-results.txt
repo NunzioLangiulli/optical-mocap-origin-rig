@@ -1,0 +1,10 @@
+test_channels_are_open_and_top_pad_is_backed (test_geometry.GeometryTests.test_channels_are_open_and_top_pad_is_backed) ... ok
+test_intermediate_pad_and_motive_triangle (test_geometry.GeometryTests.test_intermediate_pad_and_motive_triangle) ... ok
+test_marker_faces_and_axes (test_geometry.GeometryTests.test_marker_faces_and_axes) ... ok
+test_printable_exports_and_bounds (test_geometry.GeometryTests.test_printable_exports_and_bounds) ... ok
+test_source_matches_released_geometry (test_geometry.GeometryTests.test_source_matches_released_geometry) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.157s
+
+OK

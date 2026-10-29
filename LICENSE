@@ -1,0 +1,21 @@
+This repository uses two licenses, selected by the project author.
+
+1. MIT License
+   Applies to Python source files in src/, scripts/ and tests/, and software
+   configuration files including requirements.txt and .github/workflows/.
+   Full text: LICENSES/MIT.txt
+
+2. Creative Commons Attribution 4.0 International (CC BY 4.0)
+   Applies to the CAD design and generated STL models, documentation, diagrams,
+   preview images, validation reports/templates and other non-code project content.
+   This includes models/, docs/, validation/, README.md, CHANGELOG.md,
+   CONTRIBUTING.md, NOTICE.md and issue-template text.
+   Full text: LICENSES/CC-BY-4.0.txt
+
+The MIT permission to use the generator does not remove CC BY attribution
+requirements from copies or adaptations of the supplied CAD design.
+
+Third-party packages and linked manufacturer documents retain their own licenses.
+Neither license grants trademark rights or implies manufacturer endorsement.
+See NOTICE.md for suggested attribution. No warranty or physical certification
+is provided; see the full licenses and docs/validation.md.
